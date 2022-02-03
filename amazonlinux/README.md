@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `arm32v6` builds of [the `amazonlinux` official image](https://hub.docker.com/_/amazonlinux) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,10 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`2.0.20211223.0`, `2`, `latest`](https://github.com/amazonlinux/container-images/blob/d6fdf34742c14c5124c978404325e4272be743e7/Dockerfile)
--	[`2.0.20211223.0-with-sources`, `2-with-sources`, `with-sources`](https://github.com/amazonlinux/container-images/blob/ed107105c535e30322377f98d8d300a5985ecd34/Dockerfile)
--	[`2018.03.0.20220119.1`, `2018.03`, `1`](https://github.com/amazonlinux/container-images/blob/e92d0421ee96b1f6feaf907509370e74bf44c0ea/Dockerfile)
--	[`2018.03.0.20220119.1-with-sources`, `2018.03-with-sources`, `1-with-sources`](https://github.com/amazonlinux/container-images/blob/55c91a9c5662a01d4117d3171104f66566b4c39e/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `arm32v6` ARCHITECTURE
+
+[![arm32v6/amazonlinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/arm32v6/job/amazonlinux.svg?label=arm32v6/amazonlinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/arm32v6/job/amazonlinux/)
 
 # Quick reference (cont.)
 
